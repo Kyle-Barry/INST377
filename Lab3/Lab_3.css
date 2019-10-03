@@ -1,0 +1,90 @@
+
+  .six {
+    background-color: grey;
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+
+.newsline {
+  font-size: 42px;
+  font-style: bold;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 100%;
+  background: grey;
+}
+.link {
+    font-size: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 150%;
+
+}
+
+.head a,
+.head {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.second_container {
+  background: pink;
+  height: 100px;
+}
+
+.interior {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.container > div {
+    padding: 20px;
+    background: red;
+    border-top: 5px solid grey;
+    border-bottom: 10px solid grey;
+    height: 50px;
+    width: 200px;
+}
+.textbox {
+  height: 100px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 160px solid grey;
+border-right: 160px solid grey;
+}
+
+.green {
+  background: red;
+  cursor: pointer;
+}
+
+.second {
+  background: lightblue;
+  
+}
